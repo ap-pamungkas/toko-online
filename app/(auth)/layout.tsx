@@ -6,7 +6,7 @@ function AuthLayout({children,} :{
     
 
     return (
-        <div className="flex justify-item-center justify-center h-full">
+        <div className="flex p-5 justify-item-center justify-center h-full">
             {children}
         </div>
     )
