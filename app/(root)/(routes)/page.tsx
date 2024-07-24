@@ -12,12 +12,7 @@ const setUpPage = () => {
     onOpen();
   }, [isOpen, onOpen]);
 
-  return (
-    <>
-      <div className="p-4">Root page</div>
-      <UserButton />
-    </>
-  );
+  return null
 };
 
 export default setUpPage;
